@@ -7,7 +7,6 @@ const LINKS = [
   { label: "Início", href: "#inicio" },
   { label: "Projetos", href: "#projetos" },
   { label: "Serviços", href: "#servicos" },
-  { label: "Sobre", href: "#sobre" },
   { label: "Contato", href: "#contato" },
 ];
 
@@ -42,7 +41,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="https://wa.me/5517000000000"
+          href="https://wa.me/5517992446765"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden items-center gap-2 rounded-sm border border-gold/40 bg-wine px-5 py-2.5 text-sm text-white transition hover:bg-wine-light lg:flex"

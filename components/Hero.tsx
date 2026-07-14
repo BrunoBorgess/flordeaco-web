@@ -31,7 +31,7 @@ export default function Hero() {
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <a
-            href="https://wa.me/5517000000000"
+            href="https://wa.me/5517992446765"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 rounded-sm bg-wine px-7 py-3.5 text-sm text-white transition hover:bg-wine-light"
