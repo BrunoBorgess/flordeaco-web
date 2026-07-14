@@ -77,7 +77,7 @@ export default function Navbar() {
             ))}
           </ul>
           <a
-            href="https://wa.me/5517000000000"
+            href="https://wa.me/5517992446765"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 flex items-center justify-center gap-2 rounded-sm bg-wine px-5 py-3 text-sm text-white"
