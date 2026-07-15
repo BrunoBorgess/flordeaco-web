@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image-v2.png",
         width: 1200,
         height: 630,
         alt: "Flor de Aço Engenharia",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Flor de Aço | Engenharia e Construção",
     description:
       "Projetos e obras residenciais de alto padrão em São José do Rio Preto e região.",
-    images: ["/og-image.png"],
+    images: ["/og-image-v2.png"],
   },
 };
 
