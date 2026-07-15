@@ -17,13 +17,18 @@ export default function Navbar() {
     <header className="absolute top-0 left-0 right-0 z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         {/* Logo */}
-        <a href="#inicio" className="flex flex-col items-start leading-none">
-          <span className="font-display text-xl tracking-wide text-white">
-            FLOR DE AÇO
-          </span>
-          <span className="mt-1 text-[10px] tracking-[0.25em] text-gold">
-            ENGENHARIA E CONSTRUÇÃO
-          </span>
+        <a href="#inicio" className="flex flex-col items-center leading-none -mt-2">
+          <img
+          src="/icons/crown.svg"
+          alt="Flor de Aço"
+          className="h-8 w-auto "
+        />
+        <span className="font-display text-xl tracking-wide text-white">
+          FLOR DE AÇO
+        </span>
+        <span className="mt-1 text-[10px] tracking-[0.25em] text-gold">
+          ENGENHARIA E CONSTRUÇÃO
+        </span>
         </a>
 
         {/* Desktop links */}

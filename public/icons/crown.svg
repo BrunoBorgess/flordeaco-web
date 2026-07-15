@@ -1,0 +1,33 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" fill="none">
+
+  <g stroke="#D9A441" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Lado esquerdo -->
+    <path d="M180 250 L240 560"></path>
+
+    <!-- Curva esquerda -->
+    <path d="M240 560
+             C350 520 430 350 500 120"></path>
+
+    <!-- Curva descendo do topo -->
+    <path d="M500 120
+             C570 350 650 520 760 560"></path>
+
+    <!-- Lado direito -->
+    <path d="M760 560 L820 250"></path>
+
+    <!-- Curva cruzando da esquerda -->
+    <path d="M180 250
+             C290 410 360 500 460 540"></path>
+
+    <!-- Curva cruzando da direita -->
+    <path d="M820 250
+             C710 410 620 510 430 620"></path>
+
+    <!-- Base -->
+    <path d="M430 620
+             C520 635 600 630 670 610"></path>
+
+  </g>
+</svg>

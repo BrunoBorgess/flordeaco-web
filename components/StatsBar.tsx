@@ -13,7 +13,7 @@ const STATS = [
   },
   {
     icon: Star,
-    value: "Anos de",
+    value: "+ de 10 Anos de",
     label: "experiência",
   },
   {
