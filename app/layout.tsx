@@ -15,9 +15,38 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://flordeaco.com.br"),
+
   title: "Flor de Aço | Engenharia e Construção",
+
   description:
     "Projetos e obras residenciais de alto padrão em São José do Rio Preto e região.",
+
+  openGraph: {
+    title: "Flor de Aço | Engenharia e Construção",
+    description:
+      "Projetos e obras residenciais de alto padrão em São José do Rio Preto e região.",
+    url: "https://flordeaco.com.br",
+    siteName: "Flor de Aço",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Flor de Aço Engenharia",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Flor de Aço | Engenharia e Construção",
+    description:
+      "Projetos e obras residenciais de alto padrão em São José do Rio Preto e região.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
@@ -27,7 +56,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${playfair.variable} ${inter.variable} font-body bg-cream text-ink antialiased`}>
+      <body
+        className={`${playfair.variable} ${inter.variable} font-body bg-cream text-ink antialiased`}
+      >
         {children}
       </body>
     </html>
